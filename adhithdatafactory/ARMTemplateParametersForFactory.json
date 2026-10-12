@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adhithdatafactory"
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_STORAGE_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "adhithserver.database.windows.net"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "adhithdatabase"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "adhith"
+		},
+		"LS_STORAGE_properties_typeProperties_url": {
+			"value": "https://demodatabeliadhith.dfs.core.windows.net/"
+		}
+	}
+}
